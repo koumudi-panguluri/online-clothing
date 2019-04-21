@@ -1,0 +1,56 @@
+<div class="row">
+  <div class="col-md-6 mx-auto mt-5">
+    <div class="card card-body">
+      <img class="logo" src="/img/payment.png">
+      <h3 class="text-center">Payment</h3>
+      <form action="/" >
+        <div class="form-group">
+          <label for="name">Card Name</label>
+          <input type="text" class="form-control" name="name" value="{{name}}" required>
+        </div>
+        <div class="form-group">
+          <label for="number">Card Number</label>
+          <input type="number" name="number" class="form-control" value="{{number}}" required>
+        </div>
+         <div class="form-group" >
+          <label for="cvv">CVV</label>
+          <input type="number" name="cvv" class="form-control" value="{{cvv}}" required>
+        </div>
+        <div class="form-group" style="float:left">
+          <label for="expiry">Expiry</label>
+          <select>
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="Mar">Mar</option>
+            <option value="Apr">Apr</option>
+            <option value="May">May</option>
+            <option value="Jun">Jun</option>
+            <option value="Jul">Jul</option>
+            <option value="Aug">Aug</option>
+            <option value="Sept">Sept</option>
+            <option value="Oct">Oct</option>
+            <option value="Nov">Nov</option>
+            <option value="Dec">Dec</option>
+          </select>
+        </div>
+         <div class="form-group" >
+
+          <select>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            
+          </select>
+        </div>
+       
+       <button type="submit" class="btn btn-block btn-primary" >Submit</button>
+      </form>
+    </div>
+  </div>
+</div>

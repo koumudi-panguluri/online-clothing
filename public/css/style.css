@@ -1,0 +1,29 @@
+.logo{
+  width:100px;
+
+  margin:auto;
+}
+.haakmart{
+  border-radius: 5px;
+  width:200px;
+  height:200px;
+}
+.column{
+  float:left;
+  width:33.33%;
+  padding:15px;
+}
+.row{
+ margin-right:50px;
+}
+body{
+  background-color: #420039;
+  
+}
+.nav{
+  background-color: #F18701;
+  color :white;
+  font-family: cursive;
+  
+
+}
